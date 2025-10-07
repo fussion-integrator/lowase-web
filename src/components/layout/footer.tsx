@@ -121,13 +121,13 @@ export default function Footer() {
                 <span className="text-white font-bold text-2xl">L</span>
               </div>
               <div>
-                <div className="text-2xl font-bold text-white">Lowase</div>
-                <div className="text-leather-400 text-sm">VC Education Platform</div>
+                <div className="text-2xl font-bold text-white">DEYRAISE</div>
+                <div className="text-leather-400 text-sm">Africa's Premier VC Developer Platform</div>
               </div>
             </div>
             
             <p className="text-leather-200 leading-relaxed">
-              Nigeria's premier platform transforming careers through comprehensive venture capital education, 
+              Africa's premier platform transforming careers through comprehensive venture capital education, 
               expert consultations, and professional networking.
             </p>
             
@@ -143,7 +143,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-leather-300">
                 <Mail className="w-5 h-5 text-leather-500" />
-                <span>hello@lowase.ng</span>
+                <span>hello@deyraise.com</span>
               </div>
             </div>
 
@@ -260,11 +260,15 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-leather-800/30 bg-leather-950/50">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
-            <div className="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-6">
-              <p className="text-leather-400 text-sm">
-                © {currentYear} Lowase. All rights reserved.
-              </p>
+          <div className="flex flex-col space-y-4">
+            {/* Copyright */}
+            <div className="text-center">
+              <p className="text-leather-400 text-sm">© {currentYear} DEYRAISE.</p>
+              <p className="text-leather-400 text-sm">Established by Lowase Capital Partners Ltd. All rights reserved.</p>
+            </div>
+            
+            {/* Links and Social */}
+            <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
               <div className="flex items-center space-x-4 text-sm">
                 <a href="/privacy" className="text-leather-400 hover:text-white transition-colors">
                   Privacy Policy
@@ -276,24 +280,24 @@ export default function Footer() {
                   Cookie Policy
                 </a>
               </div>
-            </div>
 
-            {/* Social Links */}
-            <div className="flex items-center space-x-4">
-              <span className="text-leather-400 text-sm">Follow us:</span>
-              {socialLinks.map((social) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={social.name}
-                    href={social.href}
-                    className={`text-leather-400 ${social.color} transition-colors`}
-                    aria-label={social.name}
-                  >
-                    <Icon className="w-5 h-5" />
-                  </a>
-                );
-              })}
+              {/* Social Links */}
+              <div className="flex items-center space-x-4">
+                <span className="text-leather-400 text-sm">Follow us:</span>
+                {socialLinks.map((social) => {
+                  const Icon = social.icon;
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.href}
+                      className={`text-leather-400 ${social.color} transition-colors`}
+                      aria-label={social.name}
+                    >
+                      <Icon className="w-5 h-5" />
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>

@@ -81,11 +81,11 @@ export default function Header() {
               </div>
               <div className="hidden md:flex items-center space-x-2 text-leather-400">
                 <Phone className="w-4 h-4" />
-                <span>+234 (0) 800 LOWASE</span>
+                <span>+234 (0) 800 DEYRAISE</span>
               </div>
               <div className="hidden md:flex items-center space-x-2 text-leather-400">
                 <Mail className="w-4 h-4" />
-                <span>hello@lowase.ng</span>
+                <span>hello@deyraise.com</span>
               </div>
             </div>
             
@@ -139,8 +139,8 @@ export default function Header() {
               <span className="text-white font-bold text-xl">L</span>
             </div>
             <div>
-              <div className="text-2xl font-bold text-white">Lowase</div>
-              <div className="text-xs text-leather-400 -mt-1">VC Education Platform</div>
+              <div className="text-2xl font-bold text-white">DEYRAISE</div>
+              <div className="text-xs text-leather-400 -mt-1">Africa's Premier VC Developer Platform</div>
             </div>
           </a>
 

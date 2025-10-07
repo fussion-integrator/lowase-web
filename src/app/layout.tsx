@@ -15,8 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Lowase - Nigeria's Premier VC Education Platform</title>
-        <meta name="description" content="Transform into a certified VC consultant. Connect startups with expert consultants. Monetize your VC expertise." />
+        <title>DEYRAISE - Africa's Premier VC Developer Platform</title>
+        <meta name="description" content="Africa's premier VC developer platform. Transform into a certified VC consultant. Connect startups with expert consultants. Monetize your VC expertise." />
         <meta name="keywords" content="venture capital, education, consulting, Nigeria, startup, funding" />
       </head>
       <body className={inter.className}>
