@@ -1,0 +1,8 @@
+# Redirects for Netlify/Amplify
+/*    /index.html   200
+
+# API redirects (if needed)
+/api/*  https://your-backend-api.com/api/:splat  200
+
+# Redirect old URLs
+/old-page  /new-page  301
