@@ -81,11 +81,11 @@ export default function Header() {
               </div>
               <div className="hidden md:flex items-center space-x-2 text-leather-400">
                 <Phone className="w-4 h-4" />
-                <span>+234 (0) 800 DEYRAISE</span>
+                <span>+2348116799050</span>
               </div>
               <div className="hidden md:flex items-center space-x-2 text-leather-400">
                 <Mail className="w-4 h-4" />
-                <span>hello@deyraise.com</span>
+                <span>vcpartners@lowase.org</span>
               </div>
             </div>
             

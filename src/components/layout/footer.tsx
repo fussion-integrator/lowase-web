@@ -139,11 +139,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-leather-300">
                 <Phone className="w-5 h-5 text-leather-500" />
-                <span>+234 (0) 800 LOWASE</span>
+                <span>+2348116799050</span>
               </div>
               <div className="flex items-center space-x-3 text-leather-300">
                 <Mail className="w-5 h-5 text-leather-500" />
-                <span>hello@deyraise.com</span>
+                <span>vcpartners@lowase.org</span>
               </div>
             </div>
 
